@@ -6,6 +6,6 @@ Aluminium Body for Standard Open Arm (SO-ARM100)
 
 ## Modular Design
 
-AB-SO-BOT is built using a combination of 3D-printed parts and 40mm aluminum extrusions to create a flexible and modular body for the SO-ARM100 robotic arms (https://github.com/TheRobotStudio/SO-ARM100). This modularity allows for easy customization, expansion, and adaptation for different robotic applications.
+AB-SO-BOT is built using a combination of 3D-printed parts and 40mm aluminum extrusions to create a flexible and modular body for the SO-ARM100 robotic arms (https://github.com/TheRobotStudio/SO-ARM100 ❤️). This modularity allows for easy customization, expansion, and adaptation for different robotic applications.
 
 ![AB-SO-BOT Back](images/back.png)
