@@ -10,3 +10,7 @@ AB-SO-BOT is built using a combination of 3D-printed parts and 40mm aluminum ext
 This modularity allows for easy customization, expansion, and adaptation for different robotic applications.
 
 ![AB-SO-BOT Back](images/AB-SO-banner.png)
+
+## Compatible with LeRobot
+State-of-the-art AI for real-world robotics
+https://github.com/huggingface/lerobot
