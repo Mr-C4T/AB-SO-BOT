@@ -14,5 +14,5 @@ This modularity allows for easy customization, expansion, and adaptation for dif
 ## 🤗 Compatible with LeRobot !
 State-of-the-art AI for real-world robotics
 https://github.com/huggingface/lerobot
-#### AB-SO-BOT Datasets coming soon ...
-![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.jpg)
+### AB-SO-BOT Datasets coming soon ...
+![AB-SO-BOT Lime](images/ABSO-TRIPOD.png)
