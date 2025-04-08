@@ -1,3 +1,19 @@
+"""
+4DPrint.py by Mr-C4T
+
+This script automates 3D printing cycle by:
+- Sending print jobs to a Creality 3D printer via WebSocket
+- Waiting for the print to complete
+- Triggering a so-arm100 episode replay with phospho API to clear the build plate
+- Repeating the cycle as many times as needed
+
+⚙️ powered by Phospho API server
+🔗 Install & run the robot API server: https://docs.phospho.ai/installation
+
+🦾 SO-ARM100: https://github.com/TheRobotStudio/SO-ARM100
+🤖 Robot body: https://github.com/Mr-C4T/AB-SO-BOT
+"""
+
 import asyncio
 import websockets
 import json
