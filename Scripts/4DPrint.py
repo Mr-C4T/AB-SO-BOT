@@ -111,11 +111,12 @@ def main():
     parser.add_argument("--http_timeout", type=int, default=10, help="HTTP request timeout (seconds)")
 
     args = parser.parse_args()
-    # === Stylized ASCII Art with FILL + OUTLINE ===
-    # === Color Constants ===
-    FG_FILL = "\033[0m"     
+    
+    # ASCII Art with FILL + OUTLINE colors
+    FG_FILL = "\033[0m" # Default (White)    
     FG_OUT = "\033[92m" # Bright Green 
-    RESET = "\033[0m"
+    RESET = "\033[0m" # Reset
+    
     print(f'''
     {FG_FILL}██{FG_OUT}╗  {FG_FILL}██{FG_OUT}╗{FG_FILL}██████{FG_OUT}╗{FG_FILL}       ██████{FG_OUT}╗{FG_FILL} ██████{FG_OUT}╗{FG_FILL} ██{FG_OUT}╗{FG_FILL}███{FG_OUT}╗{FG_FILL}   ██{FG_OUT}╗{FG_FILL}████████{FG_OUT}╗{FG_FILL}
     ██{FG_OUT}║{FG_FILL}  ██{FG_OUT}║{FG_FILL}██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}      ██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}██{FG_OUT}║{FG_FILL}████{FG_OUT}╗{FG_FILL}  ██{FG_OUT}║╚══{FG_FILL}██{FG_OUT}╔══╝
