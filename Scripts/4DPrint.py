@@ -102,21 +102,20 @@ def main():
     parser.add_argument("--printer_ip", default="192.168.1.14", help="Creality printer IP address")
     parser.add_argument("--printer_port", type=int, default=9999, help="Creality WebSocket port")
     parser.add_argument("--gcode_path", default="/usr/data/printer_data/gcodes/M4_V1_PLA_9m.gcode", help="G-code file path on printer")
-    parser.add_argument("--robot_url", default="http://192.168.1.26/recording/play", help="Robot control API URL")
+    parser.add_argument("--robot_url", default="http://192.168.1.27:8020/recording/play", help="Robot control API URL")
     parser.add_argument("--robot_id", type=int, default=0, help="Phosphobot robot ID")
-    parser.add_argument("--episode_path", default="/root/phosphobot/recordings/lerobot_v2/AB-SO-3DPrint/data/chunk-000/episode_000006.parquet", help="Robot episode path")
+    parser.add_argument("--episode_path", default="/root/phosphobot/recordings/lerobot_v2/example_dataset/data/chunk-000/episode_000000.parquet", help="Robot episode path")
     parser.add_argument("--wait_time", type=int, default=600, help="Time to wait for the print to finish (seconds)")
     parser.add_argument("--repeat", type=int, default=1, help="Number of print cycles to run")
     parser.add_argument("--ws_timeout", type=int, default=10, help="WebSocket response timeout (seconds)")
     parser.add_argument("--http_timeout", type=int, default=10, help="HTTP request timeout (seconds)")
 
     args = parser.parse_args()
-    
-    # ASCII Art with FILL + OUTLINE colors
-    FG_FILL = "\033[0m" # Default (White)    
+    # Stylized ASCII Art with FILL + OUTLINE
+    # Color Constants
+    FG_FILL = "\033[0m"     
     FG_OUT = "\033[92m" # Bright Green 
-    RESET = "\033[0m" # Reset
-    
+    RESET = "\033[0m"
     print(f'''
     {FG_FILL}██{FG_OUT}╗  {FG_FILL}██{FG_OUT}╗{FG_FILL}██████{FG_OUT}╗{FG_FILL}       ██████{FG_OUT}╗{FG_FILL} ██████{FG_OUT}╗{FG_FILL} ██{FG_OUT}╗{FG_FILL}███{FG_OUT}╗{FG_FILL}   ██{FG_OUT}╗{FG_FILL}████████{FG_OUT}╗{FG_FILL}
     ██{FG_OUT}║{FG_FILL}  ██{FG_OUT}║{FG_FILL}██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}      ██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}██{FG_OUT}║{FG_FILL}████{FG_OUT}╗{FG_FILL}  ██{FG_OUT}║╚══{FG_FILL}██{FG_OUT}╔══╝
