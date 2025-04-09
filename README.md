@@ -15,10 +15,10 @@ This modularity allows for easy customization, expansion, and adaptation for dif
 ## 🤗 Compatible with LeRobot !
 State-of-the-art AI for real-world robotics
 https://github.com/huggingface/lerobot
-###  Coming soon ...
 
-🧪 AB-SO-BOT/Datasets
+## 🖥️Scripts
+Automated 3D print loop using creality ke + phosphobot API: ![4DPrint.py](Scripts/4DPrint.py)
 
-🧠 AB-SO-BOT/Models
+![4DPrint.py](images/4DPrint.png)
 
 ![AB-SO-BOT Lime](images/ABSO-TRIPOD.png)
