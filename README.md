@@ -16,8 +16,11 @@ This modularity allows for easy customization, expansion, and adaptation for dif
 State-of-the-art AI for real-world robotics
 https://github.com/huggingface/lerobot
 
+Also check 🧪Phoshobot for control UI + API
+https://github.com/phospho-app/phosphobot
+
 ## 🖥️Scripts
-Automated 3D print loop using creality ke + phosphobot API: ![4DPrint.py](Scripts/4DPrint.py)
+Automated 3D print loop using creality KE + Phosphobot API: ![4DPrint.py](Scripts/4DPrint.py)
 
 ![4DPrint.py](images/4DPrint.png)
 
