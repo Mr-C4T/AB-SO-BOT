@@ -16,7 +16,7 @@ This modularity allows for easy customization, expansion, and adaptation for dif
 State-of-the-art AI for real-world robotics
 https://github.com/huggingface/lerobot
 
-Also check 🧪Phoshobot for control UI + API
+Also check 🧪Phoshobot for web control GUI + API
 https://github.com/phospho-app/phosphobot
 
 ## 🖥️Scripts
