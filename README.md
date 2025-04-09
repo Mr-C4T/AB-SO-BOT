@@ -20,7 +20,7 @@ Also check 🧪Phoshobot for control UI + API
 https://github.com/phospho-app/phosphobot
 
 ## 🖥️Scripts
-Automated 3D print loop using creality KE + Phosphobot API: ![4DPrint.py](Scripts/4DPrint.py)
+Automated 3D print loop using creality KE Websocket + Phosphobot Robot API to clear the printer build-plate: ![4DPrint.py](Scripts/4DPrint.py)
 
 ![4DPrint.py](images/4DPrint.png)
 
