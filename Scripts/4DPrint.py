@@ -34,6 +34,11 @@ import requests
 import time
 import argparse
 
+# === Color Constants ===
+FG_FILL = "\033[0m"     
+FG_OUT = "\033[92m" # Bright Green 
+RESET = "\033[0m"
+
 async def send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout):
     print(f"🖨️ Connecting to Creality printer at {printer_ip}:{printer_port}")
     uri = f"ws://{printer_ip}:{printer_port}/"
@@ -59,6 +64,17 @@ async def send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout):
 
 def start_print(printer_ip, printer_port, gcode_path, ws_timeout):
     asyncio.run(send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout))
+
+def wait_end(wait_time):
+    if(wait_time>=60):
+        print(f'⏳ Waiting {wait_time // 60} minutes for print to complete...')
+    elif(0<=wait_time<60):
+        print(f'⏳ Waiting {wait_time} seconds for print to complete...')
+    time.sleep(wait_time) 
+
+def wait_user(auto_mode):
+    if not auto_mode:
+        input(f"{FG_OUT}⏸️ Waiting for user (--auto=False)... press ENTER to continue.{RESET}")
 
 def trigger_robot(robot_url, robot_id, episode_path, http_timeout):
     params = {"robot_id": robot_id}
@@ -109,13 +125,11 @@ def main():
     parser.add_argument("--repeat", type=int, default=1, help="Number of print cycles to run")
     parser.add_argument("--ws_timeout", type=int, default=10, help="WebSocket response timeout (seconds)")
     parser.add_argument("--http_timeout", type=int, default=30, help="HTTP request timeout (seconds)")
+    parser.add_argument("--auto", type=bool, default=False, help="Set to False to wait for user input btwn steps")
 
     args = parser.parse_args()
+
     # === Stylized ASCII Art with FILL + OUTLINE ===
-    # === Color Constants ===
-    FG_FILL = "\033[0m"     
-    FG_OUT = "\033[92m" # Bright Green 
-    RESET = "\033[0m"
     print(f'''
     {FG_FILL}██{FG_OUT}╗  {FG_FILL}██{FG_OUT}╗{FG_FILL}██████{FG_OUT}╗{FG_FILL}       ██████{FG_OUT}╗{FG_FILL} ██████{FG_OUT}╗{FG_FILL} ██{FG_OUT}╗{FG_FILL}███{FG_OUT}╗{FG_FILL}   ██{FG_OUT}╗{FG_FILL}████████{FG_OUT}╗{FG_FILL}
     ██{FG_OUT}║{FG_FILL}  ██{FG_OUT}║{FG_FILL}██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}      ██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}██{FG_OUT}╔══{FG_FILL}██{FG_OUT}╗{FG_FILL}██{FG_OUT}║{FG_FILL}████{FG_OUT}╗{FG_FILL}  ██{FG_OUT}║╚══{FG_FILL}██{FG_OUT}╔══╝
@@ -130,10 +144,10 @@ def main():
     for i in range(args.repeat):
         print(f'\n🔁 Print cycle {i + 1}/{args.repeat}')
         start_print(args.printer_ip, args.printer_port, args.gcode_path, args.ws_timeout)
-        print(f'⏳ Waiting {args.wait_time // 60} minutes for print to complete...')
-        time.sleep(args.wait_time) 
+        wait_end(args.wait_time)
+        wait_user(args.auto)
         trigger_robot(args.robot_url, args.robot_id, args.episode_path, args.http_timeout)
-
+        wait_user(args.auto)
 
     print('\n✅ All print & pickup cycles completed.')
 
