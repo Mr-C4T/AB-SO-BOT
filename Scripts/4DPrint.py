@@ -56,7 +56,7 @@ async def send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout):
             print(f'✉️ Sent payload: {json.dumps(payload)}')
             try:
                 response = await asyncio.wait_for(websocket.recv(), timeout=ws_timeout)
-                print(f'✅ Print command acknowledged: {response}')
+                print(f'✅ Print command acknowledged')# : {response}')
             except asyncio.TimeoutError:
                 print("❌ Error: No response from WebSocket server within the timeout period.")
     except Exception as e:
@@ -74,7 +74,7 @@ def wait_end(wait_time):
 
 def wait_user(auto_mode):
     if not auto_mode:
-        input(f"{FG_OUT}⏸️ Waiting for user (--auto=False)... press ENTER to continue.{RESET}")
+        input(f"{FG_OUT}⏸️ Waiting for user (--auto=False)... press ENTER to continue (Ctrl+C to quit){RESET}")
 
 def trigger_robot(robot_url, robot_id, episode_path, http_timeout):
     params = {"robot_id": robot_id}
