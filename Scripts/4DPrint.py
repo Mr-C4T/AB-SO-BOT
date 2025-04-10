@@ -60,7 +60,7 @@ async def send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout=10
 def start_print(printer_ip, printer_port, gcode_path, ws_timeout):
     asyncio.run(send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout))
 
-def trigger_robot(robot_url, robot_id, episode_path, http_timeout=10):
+def trigger_robot(robot_url, robot_id, episode_path, http_timeout):
     params = {"robot_id": robot_id}
     headers = {"Content-Type": "application/json"}
     payload = {"episode_path": episode_path}
@@ -104,15 +104,15 @@ def main():
     parser.add_argument("--gcode_path", default="/usr/data/printer_data/gcodes/M4_V1_PLA_9m.gcode", help="G-code file path on printer")
     parser.add_argument("--robot_url", default="http://192.168.1.27:8020/recording/play", help="Robot control API URL")
     parser.add_argument("--robot_id", type=int, default=0, help="Phosphobot robot ID")
-    parser.add_argument("--episode_path", default="/root/phosphobot/recordings/lerobot_v2/example_dataset/data/chunk-000/episode_000000.parquet", help="Robot episode path")
+    parser.add_argument("--episode_path", default="/root/phosphobot/recordings/lerobot_v2/example_dataset/data/chunk-000/episode_000001.parquet", help="Robot episode path")
     parser.add_argument("--wait_time", type=int, default=600, help="Time to wait for the print to finish (seconds)")
     parser.add_argument("--repeat", type=int, default=1, help="Number of print cycles to run")
     parser.add_argument("--ws_timeout", type=int, default=10, help="WebSocket response timeout (seconds)")
-    parser.add_argument("--http_timeout", type=int, default=10, help="HTTP request timeout (seconds)")
+    parser.add_argument("--http_timeout", type=int, default=30, help="HTTP request timeout (seconds)")
 
     args = parser.parse_args()
-    # Stylized ASCII Art with FILL + OUTLINE
-    # Color Constants
+    # === Stylized ASCII Art with FILL + OUTLINE ===
+    # === Color Constants ===
     FG_FILL = "\033[0m"     
     FG_OUT = "\033[92m" # Bright Green 
     RESET = "\033[0m"
