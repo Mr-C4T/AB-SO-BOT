@@ -34,7 +34,7 @@ import requests
 import time
 import argparse
 
-async def send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout=10):
+async def send_gcode_command(printer_ip, printer_port, gcode_path, ws_timeout):
     print(f"🖨️ Connecting to Creality printer at {printer_ip}:{printer_port}")
     uri = f"ws://{printer_ip}:{printer_port}/"
     
