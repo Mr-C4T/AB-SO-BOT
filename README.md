@@ -23,9 +23,10 @@ https://github.com/huggingface/lerobot
 Also check 🧪Phoshobot for web control (GUI + API)
 https://github.com/phospho-app/phosphobot
 
-## 🖥️Scripts
-Automated 3D print loop using Creality KE websocket + Phosphobot robot API to clear the printer build-plate [Scripts/4DPrint.py](Scripts/4DPrint.py) 
+## 🎥 Watch the 4DPrint Demo
 
-![4DPrint.py](images/4DPrint.png)
+[![Watch the demo](images/4DPrint.png)](https://www.youtube.com/watch?v=gPFcQjBbeOc)
 
-![AB-SO-BOT Lime](images/ABSO-TRIPOD.png)
+Autonomous 3D printing loop using Creality KE WebSocket and Phosphobot robot API.
+
+![ABSO Tripod](images/ABSO-TRIPOD.png)
