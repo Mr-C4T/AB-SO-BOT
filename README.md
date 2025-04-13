@@ -24,7 +24,7 @@ Also check 🧪Phoshobot for web control (GUI + API)
 https://github.com/phospho-app/phosphobot
 
 ## 🖥️Scripts
-Automated 3D print loop using Creality KE websocket + Phosphobot robot API to clear the printer build-plate (1 SO-ARM100): [4DPrint.py](Scripts/4DPrint.py) 
+Automated 3D print loop using Creality KE websocket + Phosphobot robot API to clear the printer build-plate [Scripts/4DPrint.py](Scripts/4DPrint.py) 
 
 ![4DPrint.py](images/4DPrint.png)
 
