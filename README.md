@@ -23,7 +23,7 @@ https://github.com/huggingface/lerobot
 Also check 🧪Phoshobot for web control (GUI + API)
 https://github.com/phospho-app/phosphobot
 
-## 🎥 Watch the 4DPrint Demo on YouTube !
+## 🎥 Watch the Demo on YouTube !
 Autonomous 3D printing loop using Creality KE WebSocket and Phosphobot robot API
 https://www.youtube.com/watch?v=gPFcQjBbeOc
 [![Watch the demo](images/4DPrint.png)](https://www.youtube.com/watch?v=gPFcQjBbeOc)
