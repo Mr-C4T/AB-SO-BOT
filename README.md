@@ -13,8 +13,8 @@ https://github.com/TheRobotStudio/SO-ARM100 ❤️
 
 This modularity allows for easy customization, expansion, and adaptation for different robotic applications.
 
-| ![AB-SO-BOT Banner](images/AB-SO-banner.png) | ![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) |
-|----------------------------------------------|-------------------------------------------|
+| ![AB-SO-BOT Banner](images/AB-SO-banner.png) | ![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-Render](images/AB-SO-Render.png) |
+|----------------------------------------------|-------------------------------------------|-------------------------------------------|
 
 ## 🤗 Compatible with LeRobot !
 State-of-the-art AI for real-world robotics
