@@ -6,25 +6,12 @@
 
 ## 🔩 Modular Design
 
-<table>
-  <tr>
-    <td>
-
 AB-SO-BOT is built using a combination of <strong>3D-printed parts</strong> and standard <strong>4040 T-slot aluminium extrusions</strong> to create a customizable and modular body for the <a href="https://github.com/TheRobotStudio/SO-ARM100">SO-ARM100</a> robotic arm. ❤️  
-<br><br>
+
 This modularity allows for easy expansion and adaptation for different robotic applications.
 
-</td>
-<td>
-  <img src="images/AB-SO.gif" alt="AB-SO-BOT demo" width="300">
-</td>
-  </tr>
-</table>
-
-<br>
-
-| ![AB-SO-BOT Banner](images/AB-SO-banner.png) | ![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-Render](images/AB-SO-Render.png) |
-|:--:|:--:|:--:|
+| ![AB-SO-BOT Banner](images/AB-SO-banner.png) |![AB-SO-Render](images/AB-SO-Render.png) |
+|:--:|:--:|
 
 ## 🤗 Compatible with LeRobot
 
@@ -33,6 +20,9 @@ State-of-the-art AI for real-world robotics
 
 Also check out 🧪 **Phosphobot** for web control (GUI + API)  
 👉 https://github.com/phospho-app/phosphobot
+
+|![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-BOT gif](images/AB-SO.gif)
+|:--:|:--:|
 
 ## 🎥 Watch the Demo on YouTube
 
