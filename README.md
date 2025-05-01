@@ -21,6 +21,9 @@ State-of-the-art AI for real-world robotics
 Also check out 🧪 **Phosphobot** for web control (GUI + API)  
 👉 https://github.com/phospho-app/phosphobot
 
+My Huggingface profile (Models & Datasets)  
+👉 https://huggingface.co/MrC4t
+
 |![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-BOT gif](images/AB-SO.gif)
 |:--:|:--:|
 
