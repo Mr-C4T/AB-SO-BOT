@@ -31,7 +31,7 @@ My Huggingface profile (Models & Datasets)
 
 | Autonomous 3D printing loop | First **ACT** inference demo |
 |:--:|:--:|
-| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) |
+| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/xaGvbCwGXA4/hqdefault.jpg)](https://www.youtube.com/shorts/xaGvbCwGXA4) |
 
 
 ![ABSO Tripod](images/ABSO-TRIPOD.png)
