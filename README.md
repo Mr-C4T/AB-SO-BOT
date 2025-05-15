@@ -24,13 +24,14 @@ Also check out 🧪 **Phosphobot** for web control (GUI + API)
 My Huggingface profile (Models & Datasets)  
 👉 https://huggingface.co/MrC4t
 
-|![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-BOT gif](images/AB-SO.gif)
+|![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-BOT gif](images/AB-SO.gif) |
 |:--:|:--:|
 
-## 🎥 Watch the Demo on YouTube
+## 🎥 Watch the Demos on YouTube
 
-Autonomous 3D printing loop using **Creality KE WebSocket** and **Phosphobot robot API**
+| Autonomous 3D printing loop using **Creality KE WebSocket** and **Phosphobot robot API** | First **ACT** inference demo |
+|:--:|:--:|
+| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) |
 
-[![Watch the demo](images/4DPrint.png)](https://www.youtube.com/watch?v=gPFcQjBbeOc)
 
 ![ABSO Tripod](images/ABSO-TRIPOD.png)
