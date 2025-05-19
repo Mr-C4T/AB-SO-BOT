@@ -29,7 +29,7 @@ My Huggingface profile (Models & Datasets)
 
 ## 🎥 Watch the Demos on YouTube
 
-| Autonomous 3D printing loop | First **ACT** inference demo |
+| Autonomous 3D printing loop | First **AI** inference demo |
 |:--:|:--:|
 | [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/xaGvbCwGXA4/hqdefault.jpg)](https://www.youtube.com/shorts/xaGvbCwGXA4) |
 
