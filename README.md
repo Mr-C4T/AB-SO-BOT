@@ -6,9 +6,10 @@
 
 ## 🔩 Modular Design
 
-AB-SO-BOT is built using a combination of <strong>3D-printed parts</strong> and standard <strong>4040 T-slot aluminium extrusions</strong> to create a customizable and modular body for the <a href="https://github.com/TheRobotStudio/SO-ARM100">SO-ARM100</a> robotic arm. ❤️  
+AB-SO-BOT is built using a combination of <strong>3D-printed parts</strong> and standard <strong>4040 T-slot aluminium extrusions</strong> to create a customizable and modular body for the <a href="https://github.com/TheRobotStudio/SO-ARM100">SO-ARM100</a> robotic arm designed by LeRobotStudio and HuggingFace.❤️  
 
-This modularity allows for easy expansion and adaptation for different robotic applications.
+This modularity allows for easy expansion and adaptation for different robotic applications. From a compact workshop assistant mounted on a camera tripod, to a full humanoid-style bimanual setup using VR controllers teleoperation.
+
 
 | ![AB-SO-BOT Banner](images/AB-SO-banner.png) |![AB-SO-Render](images/AB-SO-Render.png) |
 |:--:|:--:|
@@ -18,14 +19,21 @@ This modularity allows for easy expansion and adaptation for different robotic a
 State-of-the-art AI for real-world robotics  
 👉 https://github.com/huggingface/lerobot
 
-Also check out 🧪 **Phosphobot** for web control (GUI + API)  
+Also check out 🧪 **Phosphobot** for web control (GUI + API) and VR bimanual teleoperation.   
 👉 https://github.com/phospho-app/phosphobot
 
 My Huggingface profile (Models & Datasets)  
 👉 https://huggingface.co/MrC4t
 
-|![AB-SO-BOT Lime](images/ABSO-TRIPOD-LIME.png) | ![AB-SO-BOT gif](images/AB-SO.gif) |
-|:--:|:--:|
+
+<p align=" ">
+  <a href="https://youtu.be/-x64_-g5ABw?t=606">
+    <img src="images/LeRobotHackathonKickOff.png" alt="AB-SO-BOT in LeRobot Hackathon Kickoff" width="60%">
+  </a>
+  <img src="images/AB-SO.gif" alt="AB-SO-BOT gif" width="34%">
+</p>
+
+> 🦾 **_AB-SO-BOT spotted in the 2025 LeRobot Worldwide Hackathon Kickoff video!_**  
 
 ## 🎥 Watch the Demos on YouTube
 
