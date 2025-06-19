@@ -26,14 +26,16 @@ My Huggingface profile (Models & Datasets)
 👉 https://huggingface.co/MrC4t
 
 
+
 <p align=" ">
   <a href="https://youtu.be/-x64_-g5ABw?t=606">
     <img src="images/LeRobotHackathonKickOff.png" alt="AB-SO-BOT in LeRobot Hackathon Kickoff" width="60%">
   </a>
-  <img src="images/AB-SO.gif" alt="AB-SO-BOT gif" width="34%">
+  <img src="images/AB-SO.gif" alt="AB-SO-BOT gif" width="36%">
 </p>
 
 > 🦾 **_AB-SO-BOT spotted in the 2025 LeRobot Worldwide Hackathon Kickoff video!_**  
+
 
 ## 🎥 Watch the Demos on YouTube
 
