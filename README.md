@@ -10,6 +10,7 @@ AB-SO-BOT is built using a combination of <strong>3D-printed parts</strong> and 
 
 This modularity allows for easy expansion and adaptation for different robotic applications. From a compact workshop assistant mounted on a camera tripod, to a full humanoid-style bimanual setup using VR controllers teleoperation.
 
+You can find mounting instructions for attaching the so-arm to 4040T profiles in the <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/4040_Base_Mount/README.md">SO-ARM100 repository</a>.
 
 | ![AB-SO-BOT Banner](images/AB-SO-banner.png) |![AB-SO-Render](images/AB-SO-Render.png) |
 |:--:|:--:|
