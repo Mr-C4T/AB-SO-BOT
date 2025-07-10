@@ -6,7 +6,7 @@
 
 ## 🔩 Modular Design
 
-AB-SO-BOT is built using a combination of <strong>3D-printed parts</strong> and standard <strong>4040 T-slot aluminium extrusions</strong> to create a customizable and modular body for the <a href="https://github.com/TheRobotStudio/SO-ARM100">SO-ARM100</a> robotic arm designed by LeRobotStudio and HuggingFace.❤️  
+AB-SO-BOT is built using a combination of <strong>3D-printed parts</strong> and standard <strong>4040 T-slot aluminium extrusions</strong> to create a customizable and modular body for the <a href="https://github.com/TheRobotStudio/SO-ARM100">SO-ARM100</a> robotic arm designed by TheRobotStudio and HuggingFace.❤️  
 
 This modularity allows for easy expansion and adaptation for different robotic applications. From a compact workshop assistant mounted on a camera tripod, to a full humanoid-style bimanual setup using VR controllers teleoperation.
 
