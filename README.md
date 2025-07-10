@@ -44,5 +44,12 @@ My Huggingface profile (Models & Datasets)
 |:--:|:--:|
 | [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/xaGvbCwGXA4/hqdefault.jpg)](https://www.youtube.com/shorts/xaGvbCwGXA4) |
 
+## 🙌 Thanks for Your Support
 
-![ABSO Tripod](images/ABSO-TRIPOD.png)
+If this project is useful or inspiring to you, feel free to give it a ⭐ so others can discover it too.  
+You're more than welcome to ask questions, share ideas for improvement, or show off what you’ve built!
+
+<p align=" ">
+      <img src="https://api.star-history.com/svg?repos=Mr-C4T/AB-SO-BOT&type=Date" alt="Star History Chart" width="60%" />
+      <img src="images/ABSO-TRIPOD.png" alt="ABSO Tripod" width="36%" />
+</p>
