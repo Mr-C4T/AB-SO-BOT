@@ -56,14 +56,14 @@ See mounting <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Opti
     <td align="center" width="50%">
       <strong>4040-Adapter</strong><br>
       <em>Flat version</em><br>
-      <a href="STL/4040-Adapter.stl">
+      <a href="STL/SOARM100-4040-Adapter-V2.stl">
         <img src="images/adapter-flat.jpg" height="180px" />
       </a>
     </td>
     <td align="center" width="50%">
       <strong>4040-Adapter-Curved</strong><br>
       <em>Rounded style</em><br>
-      <a href="STL/4040-Adapter-Curved.stl">
+      <a href="STL/SOARM100-4040-Adapter.stl">
         <img src="images/adapter-curved.jpg" height="180px" />
       </a>
     </td>
@@ -88,7 +88,7 @@ Links horizontal and vertical extrusions. Also acts as the base for ORP mounting
     <td align="center" width="50%">
       <strong>TSPINE-ORP</strong><br>
       <em>With 4×2 ORP</em><br>
-      <a href="STL/ABSO-TSPINE-GRID.stl">
+      <a href="STL/ABSO-TSPINE-ORP.stl">
         <img src="images/tspine-orp.png" height="180px" />
       </a>
     </td>
