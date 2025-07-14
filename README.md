@@ -117,7 +117,7 @@ Supports RealSense D435/D435i cameras. Comes in 2 parts: Head and Neck.
 ### 👂 Ear
 
 Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
-<table> <tr> <td align="center">USB<br><a href="STL/ABSO-EAR-USB.stl"><img src="images/ear.png" height="160"/></a></td> <td align="center">SMA<br><a href="STL/ABSO-EAR-SMA.stl"><img src="images/head-renderV2.png" height="160"/></a></td> <td align="center">USB2<br><a href="STL/ABSO-EAR-USB2.stl"><img src="images/ear3.png" height="160"/></a></td> <td align="center">Blank<br><a href="STL/ABSO-EAR-BLANK.stl"><img src="images/ear-blank.png" height="160"/></a></td> </tr> </table>
+<table> <tr> <td align="center">USB<br><a href="STL/ABSO-EAR-USB.stl"><img src="images/ear.png" height="160"/></a></td> <td align="center">SMA<br><a href="STL/ABSO-EAR-SMA.stl"><img src="images/head-renderV2.png" height="160"/></a></td> <td align="center">USB2<br><a href="STL/ABSO-EAR-USB2.stl"><img src="images/ear3.png" height="160"/></a></td> <td align="center">Blank<br><a href="STL/ABSO-EAR-Basic.stl"><img src="images/ear-blank.png" height="160"/></a></td> </tr> </table>
 
 > Requires: M3 bolts
 
