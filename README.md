@@ -1,8 +1,12 @@
 # AB-SO-BOT
+![3D Files](https://img.shields.io/badge/3D--Printable-STL-blueviolet?logo=print)
+![Last Commit](https://img.shields.io/github/last-commit/Mr-C4T/AB-SO-BOT)
+![Repo Size](https://img.shields.io/github/repo-size/Mr-C4T/AB-SO-BOT)
+![GitHub stars](https://img.shields.io/github/stars/Mr-C4T/AB-SO-BOT?style=social)
 
 **Aluminium Body for Standard Open Arm (SO-ARM100)**
 
-![AB-SO-BOT Drawing](images/AB-SO-DARK.png)
+<img src="images/AB-SO-DARK.png" alt="AB-SO-BOT Drawing" width="60%">
 
 ## 🔩 Modular Design
 
@@ -18,14 +22,13 @@ You can find mounting instructions for attaching the so-arm to 4040T profiles in
 ## 🤗 Compatible with LeRobot
 
 State-of-the-art AI for real-world robotics  
-👉 https://github.com/huggingface/lerobot
+[![LeRobot Repo](https://img.shields.io/badge/LeRobot-AI-yellow?logo=github)](https://github.com/huggingface/lerobot)
 
-Also check out 🧪 **Phosphobot** for web control (GUI + API) and VR bimanual teleoperation.   
-👉 https://github.com/phospho-app/phosphobot
+Also check out 🧪 **Phosphobot** for web control (GUI + API) and VR bimanual teleoperation  
+[![Phosphobot](https://img.shields.io/badge/Phosphobot-Control-green?logo=github)](https://github.com/phospho-app/phosphobot)
 
 My Huggingface profile (Models & Datasets)  
-👉 https://huggingface.co/MrC4t
-
+[![Huggingface](https://img.shields.io/badge/Huggingface-Models-orange?logo=huggingface)](https://huggingface.co/MrC4t)
 
 
 <p align=" ">
@@ -37,6 +40,86 @@ My Huggingface profile (Models & Datasets)
 
 > 🦾 **_AB-SO-BOT spotted in the 2025 LeRobot Worldwide Hackathon Kickoff video!_**  
 
+
+## 🧩 3D Parts Overview
+
+AB-SO-BOT is built from modular 3D-printed components, each designed to interface with standard M3/M4 hardware and 4040 aluminum extrusions.
+
+📂 Browse all printable files here: [STL/](./STL/)
+
+### 🦾 4040 Adaptor (Shoulder Mount)
+
+Connects the SO-ARM100 base to 4040 extrusions.
+See mounting <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/4040_Base_Mount/README.md">instructions</a> in the SO-ARM100 repo.
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>4040-Adapter</strong><br>
+      <em>Flat version</em><br>
+      <a href="STL/4040-Adapter.stl">
+        <img src="images/adapter-flat.jpg" height="180px" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <strong>4040-Adapter-Curved</strong><br>
+      <em>Rounded style</em><br>
+      <a href="STL/4040-Adapter-Curved.stl">
+        <img src="images/adapter-curved.jpg" height="180px" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+> Requires: M4 bolts + wing nuts + T-slot nuts
+### 🦴 T-Spine
+
+Links horizontal and vertical extrusions. Also acts as the base for ORP mounting. 
+[Open Robotic Platform](https://openroboticplatform.com/designrules)
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>TSPINE</strong><br>
+      <em>Standard connector</em><br>
+      <a href="STL/ABSO-TSPINE.stl">
+        <img src="images/tspine.png" height="180px" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <strong>TSPINE-ORP</strong><br>
+      <em>With 4×2 ORP</em><br>
+      <a href="STL/ABSO-TSPINE-GRID.stl">
+        <img src="images/tspine-orp.png" height="180px" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+> Requires: M4 bolts + optional M3 hardware (orp version)
+### 🧠 Head & Neck
+
+Supports RealSense D435/D435i cameras. Comes in 2 parts: Head and Neck.
+<table>
+  <tr>
+    <td align="center">
+      NECK<br>
+      <a href="STL/ABSO-NECK.stl">STL</a>
+    </td>
+    <td align="center">
+      HEAD<br>
+      <a href="STL/ABSO-HEAD.stl">STL</a>
+    </td>
+  </tr>
+</table>
+
+> Requires: M3 bolts and nuts
+### 👂 Ear
+
+Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
+<table> <tr> <td align="center">USB<br><a href="STL/ABSO-EAR-USB.stl"><img src="images/ear.png" height="160"/></a></td> <td align="center">SMA<br><a href="STL/ABSO-EAR-SMA.stl"><img src="images/ear2.png" height="160"/></a></td> <td align="center">USB2<br><a href="STL/ABSO-EAR-USB2.stl"><img src="images/ear3.png" height="160"/></a></td> <td align="center">Blank<br><a href="STL/ABSO-EAR-BLANK.stl"><img src="images/ear-blank.png" height="160"/></a></td> </tr> </table>
+
+> Requires: M3 bolts
 
 ## 🎥 Watch the Demos on YouTube
 
