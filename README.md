@@ -51,6 +51,11 @@ AB-SO-BOT is built from modular 3D-printed components, each designed to interfac
 
 Connects the SO-ARM100 base to 4040 extrusions.
 See mounting <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/4040_Base_Mount/README.md">instructions</a> in the SO-ARM100 repo.
+
+The flat version is also available as a STEP file.
+
+📐 [Download STEP file](STEP/SOARM100-4040-Adapter-V2.step)
+
 <table>
   <tr>
     <td align="center" width="50%">
