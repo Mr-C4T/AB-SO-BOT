@@ -47,7 +47,7 @@ AB-SO-BOT is built from modular 3D-printed components, each designed to interfac
 
 📂 Browse all printable files here: [STL/](./STL/)
 
-### 🦾 4040 Adaptor (Shoulder Mount)
+## 🦾 4040 Adaptor (Shoulder Mount)
 
 Connects the SO-ARM100 base to 4040 extrusions.
 See mounting <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/4040_Base_Mount/README.md">instructions</a> in the SO-ARM100 repo.
@@ -70,8 +70,8 @@ See mounting <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Opti
   </tr>
 </table>
 
-> Requires: M4 bolts + wing nuts + T-slot nuts
-### 🦴 T-Spine
+> Requires: M4 screws + wing nuts + T-slot nuts
+## 🦴 T-Spine
 
 Links horizontal and vertical extrusions. Also acts as the base for ORP mounting. 
 [Open Robotic Platform](https://openroboticplatform.com/designrules)
@@ -96,30 +96,52 @@ Links horizontal and vertical extrusions. Also acts as the base for ORP mounting
 </table>
 
 
-> Requires: M4 bolts + optional M3 hardware (orp version)
-### 🧠 Head & Neck
+> Requires: M4 screws + optional M3 hardware (orp version)
+## 🧠 Head & Neck
 
 Supports RealSense D435/D435i cameras. Comes in 2 parts: Head and Neck.
+      
+- <a href="STL/ABSO-NECK.stl">NECK</a>
+- <a href="STL/ABSO-HEAD.stl">HEAD</a>
+
+
+> Requires: M3 screws
+## 👂 Ear
+Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
+If you'd like to customize your own panel, the **Blank** version is also available as a STEP file. 
+
+📐 [Download STEP file](STL/ABSO-EAR-Basic.step)
+
 <table>
   <tr>
-    <td align="center">
-      NECK<br>
-      <a href="STL/ABSO-NECK.stl">STL</a>
+    <td align="center" width="25%">
+      <strong>SMA</strong><br>
+      <a href="STL/ABSO-EAR-SMA.stl">
+        <img src="images/head-renderV2.png" height="160"/>
+      </a>
     </td>
-    <td align="center">
-      HEAD<br>
-      <a href="STL/ABSO-HEAD.stl">STL</a>
+    <td align="center" width="25%">
+      <strong>Blank</strong><br>
+      <a href="STL/ABSO-EAR-Basic.stl">
+        <img src="images/ear-blank.png" height="160"/>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <strong>USB</strong><br>
+      <a href="STL/ABSO-EAR-USB.stl">
+        <img src="images/ear.png" height="160"/>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <strong>USB2</strong><br>
+      <a href="STL/ABSO-EAR-USB2.stl">
+        <img src="images/ear3.png" height="160"/>
+      </a>
     </td>
   </tr>
 </table>
 
-> Requires: M3 bolts and nuts
-### 👂 Ear
-
-Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
-<table> <tr> <td align="center">USB<br><a href="STL/ABSO-EAR-USB.stl"><img src="images/ear.png" height="160"/></a></td> <td align="center">SMA<br><a href="STL/ABSO-EAR-SMA.stl"><img src="images/head-renderV2.png" height="160"/></a></td> <td align="center">USB2<br><a href="STL/ABSO-EAR-USB2.stl"><img src="images/ear3.png" height="160"/></a></td> <td align="center">Blank<br><a href="STL/ABSO-EAR-Basic.stl"><img src="images/ear-blank.png" height="160"/></a></td> </tr> </table>
-
-> Requires: M3 bolts
+> Requires: M3 screws
 
 ## 🎥 Watch the Demos on YouTube
 
