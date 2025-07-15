@@ -6,7 +6,7 @@
 
 **Aluminium Body for Standard Open Arm (SO-ARM100)**
 
-<img src="images/body-render.png" alt="AB-SO-BOT render" width="60%">
+<img src="images/body-render.png" alt="AB-SO-BOT render" width="90%">
 
 ## 🔩 Modular Design
 
