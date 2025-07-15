@@ -124,29 +124,30 @@ If you'd like to customize your own panel, the **Blank** version is also availab
     <td align="center" width="25%">
       <strong>SMA</strong><br>
       <a href="STL/ABSO-EAR-SMA.stl">
-        <img src="images/head-renderV2.png" height="160"/>
+        <img src="images/head-renderV2.png" style="height:160px; object-fit: contain;" />
       </a>
     </td>
     <td align="center" width="25%">
       <strong>Blank</strong><br>
       <a href="STL/ABSO-EAR-Basic.stl">
-        <img src="images/ear-blank.png" height="160"/>
+        <img src="images/ear-blank.png" style="height:160px; object-fit: contain;" />
       </a>
     </td>
     <td align="center" width="25%">
       <strong>USB</strong><br>
       <a href="STL/ABSO-EAR-USB.stl">
-        <img src="images/ear.png" height="160"/>
+        <img src="images/ear.png" style="height:160px; object-fit: contain;" />
       </a>
     </td>
     <td align="center" width="25%">
       <strong>USB2</strong><br>
       <a href="STL/ABSO-EAR-USB2.stl">
-        <img src="images/ear3.png" height="160"/>
+        <img src="images/ear3.png" style="height:160px; object-fit: contain;" />
       </a>
     </td>
   </tr>
 </table>
+
 
 > Requires: M3 screws
 
