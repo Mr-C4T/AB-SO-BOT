@@ -115,7 +115,7 @@ Supports RealSense D435/D435i cameras. Comes in 2 parts: Head and Neck.
 Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
 If you'd like to customize your own panel, the **Blank** version is also available as a STEP file. 
 
-📐 [Download STEP file](STL/ABSO-EAR-Basic.step)
+📐 [Download STEP file](STEP/ABSO-EAR-Basic.step)
 
 <table>
   <tr>
