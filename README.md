@@ -49,7 +49,15 @@ AB-SO-BOT is built from modular 3D-printed components, each designed to interfac
 
 📂 Browse all printable files here: [STL/](./STL/)
 
-## 🦾 4040 Adaptor (Shoulder Mount)
+### Parts Glossary
+
+- [4040 Adaptor (Shoulder Mount)](#4040-adaptor-shoulder-mount)  
+- [T-Spine](#t-spine)  
+- [Head](#head)  
+- [Neck](#neck)  
+- [Ear](#ear)
+
+## 4040 Adaptor (Shoulder Mount)
 
 Connects the SO-ARM100 base to 4040 extrusions.
 See mounting <a href="https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/4040_Base_Mount/README.md">instructions</a> in the SO-ARM100 repo.
@@ -78,7 +86,7 @@ The flat version is also available as a STEP file.
 </table>
 
 > Requires: M4 screws + wing nuts + T-slot nuts
-## 🦴 T-Spine
+## T-Spine
 
 Links horizontal and vertical extrusions. Also acts as the base for ORP mounting. 
 [Open Robotic Platform](https://openroboticplatform.com/designrules)
@@ -104,50 +112,82 @@ Links horizontal and vertical extrusions. Also acts as the base for ORP mounting
 
 
 > Requires: M4 screws + optional M3 hardware (orp version)
-## 🧠 Head & Neck
+## Head
 
-Supports RealSense D435/D435i cameras. Comes in 2 parts: Head and Neck.
-      
-- <a href="STL/ABSO-NECK.stl">NECK</a>
-- <a href="STL/ABSO-HEAD.stl">HEAD</a>
-
-
-> Requires: M3 screws
-## 👂 Ear
-Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
-If you'd like to customize your own panel, the **Blank** version is also available as a STEP file. 
-
-📐 [Download STEP file](STEP/ABSO-EAR-Basic.step)
+Supports RealSense D435/D435i cameras.
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <strong>SMA</strong><br>
-      <a href="STL/ABSO-EAR-SMA.stl">
-        <img src="images/head-renderV2.png" style="height:160px; object-fit: contain;" />
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <strong>Blank</strong><br>
-      <a href="STL/ABSO-EAR-Basic.stl">
-        <img src="images/ear-blank.png" style="height:160px; object-fit: contain;" />
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <strong>USB</strong><br>
-      <a href="STL/ABSO-EAR-USB.stl">
-        <img src="images/ear.png" style="height:160px; object-fit: contain;" />
-      </a>
-    </td>
-    <td align="center" width="25%">
-      <strong>USB2</strong><br>
-      <a href="STL/ABSO-EAR-USB2.stl">
-        <img src="images/ear3.png" style="height:160px; object-fit: contain;" />
+    <td align="center" width="100%">
+      <strong>HEAD</strong><br>
+      <a href="STL/ABSO-HEAD.stl">
+        <img src="images/head.png" height="180px" />
       </a>
     </td>
   </tr>
 </table>
 
+> Requires: M3 screws
+
+## Neck
+Link the head to vertical 4040T. 2 variants 
+      
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>NECK</strong><br>
+      <em>Default version</em><br>
+      <a href="STL/ABSO-NECK-default.stl">
+        <img src="images/neck.png" height="180px" />
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <strong>NECK-VORONOI</strong><br>
+      <em>Voronoi style</em><br>
+      <a href="STL/ABSO-NECK.stl">
+        <img src="images/neck-voronoi.png" height="180px" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+> Requires: M3 screws
+
+## Ear
+Side-mounted panels for USB, RF, or clean finishing. Fully interchangeable.
+If you'd like to customize your own panel, the **Blank** version is also available as a STEP file. 
+
+📐 [Download STEP file](STEP/ABSO-EAR-Basic.step)
+
+<table width="100%">
+  <tr>
+    <td align="center" width="25%">
+      <strong>SMA</strong><br>
+      <a href="STL/ABSO-EAR-SMA.stl">
+        <img src="images/head-renderV2.png" style="height:160px; width: auto;" />
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <strong>Blank</strong><br>
+      <a href="STL/ABSO-EAR-Basic.stl">
+        <img src="images/ear-blank.png" style="height:160px; width: auto;" />
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <strong>USB</strong><br>
+      <a href="STL/ABSO-EAR-USB.stl">
+        <img src="images/ear.png" style="height:160px; width: auto;" />
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <strong>USB2</strong><br>
+      <a href="STL/ABSO-EAR-USB2.stl">
+        <img src="images/ear3.png" style="height:160px; width: auto;" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 > Requires: M3 screws
 
