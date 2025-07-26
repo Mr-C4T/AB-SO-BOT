@@ -194,9 +194,9 @@ If you'd like to customize your own panel, the **Blank** version is also availab
 
 ## 🎥 Watch the Demos on YouTube
 
-| Autonomous 3D printing loop | First **AI** inference demo |
+| Autonomous 3D printing loop | Bimanual teleop demo |
 |:--:|:--:|
-| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/xaGvbCwGXA4/hqdefault.jpg)](https://www.youtube.com/shorts/xaGvbCwGXA4) |
+| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/YtUXpFyqol4/hqdefault.jpg)](https://www.youtube.com/shorts/YtUXpFyqol4) |
 
 ## 🙌 Thanks for Your Support
 
