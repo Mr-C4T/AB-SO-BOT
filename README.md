@@ -207,6 +207,5 @@ If this project is useful or inspiring to you, feel free to give it a ⭐ so oth
 You're more than welcome to ask questions, share ideas for improvement, or show off what you’ve built!
 
 <p align=" ">
-      <img src="https://api.star-history.com/svg?repos=Mr-C4T/AB-SO-BOT&type=Date" alt="Star History Chart" width="60%" />
       <img src="images/ABSO-TRIPOD.png" alt="ABSO Tripod" width="36%" />
 </p>
