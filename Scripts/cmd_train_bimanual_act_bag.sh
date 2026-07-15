@@ -1,0 +1,1 @@
+lerobot-train   --dataset.repo_id=local/bimanual_bag1_20260712_042027   --dataset.root=/home/katnips/.cache/huggingface/lerobot/local/bimanual_bag1_20260712_042027   --policy.type=act   --output_dir=outputs/act_bimanual_bag   --job_name=act_bimanual_bag   --policy.device=cuda   --batch_size=8   --steps=100000   --wandb.enable=false  --policy.push_to_hub=false 
