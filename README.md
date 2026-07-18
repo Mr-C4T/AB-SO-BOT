@@ -197,9 +197,9 @@ If you'd like to customize your own panel, the **Blank** version is also availab
 
 ## 🎥 Watch the Demos on YouTube
 
-| Autonomous 3D printing loop | Bimanual teleop demo |
-|:--:|:--:|
-| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/YtUXpFyqol4/hqdefault.jpg)](https://www.youtube.com/shorts/YtUXpFyqol4) |
+| Autonomous 3D printing loop | Bimanual teleop demo | AI policy |
+|:--:|:--:|:--:|
+| [![Watch the demo](https://img.youtube.com/vi/gPFcQjBbeOc/hqdefault.jpg)](https://www.youtube.com/watch?v=gPFcQjBbeOc) | [![Watch the demo](https://img.youtube.com/vi/YtUXpFyqol4/hqdefault.jpg)](https://www.youtube.com/shorts/YtUXpFyqol4) | [![Watch the demo](https://img.youtube.com/vi/woIlVkLPnws/hqdefault.jpg)](https://www.youtube.com/shorts/woIlVkLPnws) | 
 
 ## 🙌 Thanks for Your Support
 
